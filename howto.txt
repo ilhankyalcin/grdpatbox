@@ -1,0 +1,32 @@
+gr_modtool newmod pa_radar
+cd gr-pa_radar/
+cp .clang-format  ..
+gr_modtool add -t sync 
+mkdir build
+cd build/
+cmake ..
+make -j4
+sudo make install
+sudo ldconfig
+ 
+gnuradio-companion 
+
+
+
+bindings
+
+Edit your C++ API (and GRC YAML if needed)
+
+Change the public header in include/<mod>/<block>.h and keep YAML (grc/*.block.yml) consistent.
+
+Regenerate bindings (from your module root)
+# regenerate for a single block
+gr_modtool bind <blockname>
+# or (depending on version) regenerate for everything
+gr_modtool bind --all
+
+cmake -B build -S .
+cmake --build build -j
+sudo cmake --install build
+sudo ldconfig
+
