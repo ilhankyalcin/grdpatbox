@@ -1,2 +1,2 @@
 # grdpatbox_pc
-gnu radio phased array toolbox
+gnuradio phased array toolbox
