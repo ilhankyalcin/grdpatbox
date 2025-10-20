@@ -1,2 +1,2 @@
-# grdpatbox
-gnuradio phased array toolbox
+# grdpartbox
+gnuradio phased array radar toolbox
