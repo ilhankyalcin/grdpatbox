@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -Dgnuradio_pa_radar_EXPORTS -I/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/lib/../include   -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC   -std=c++17 -o CMakeFiles/gnuradio-pa_radar.dir/radar_target_impl.cc.o -c /home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/lib/radar_target_impl.cc",
+  "file": "/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/lib/radar_target_impl.cc"
+},
+{
+  "directory": "/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/build/python/pa_radar/bindings",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -Dpa_radar_python_EXPORTS -I/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/build/python/pa_radar/bindings -I/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/python/pa_radar/bindings/../../../lib -I/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/python/pa_radar/bindings/../../../include -I/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/lib/../include -isystem /usr/include/python3.8 -isystem /home/yalcin/.local/lib/python3.8/site-packages/numpy/core/include   -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden   -flto -fno-fat-lto-objects -Wno-unused-variable -std=c++17 -o CMakeFiles/pa_radar_python.dir/radar_target_python.cc.o -c /home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/python/pa_radar/bindings/radar_target_python.cc",
+  "file": "/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/python/pa_radar/bindings/radar_target_python.cc"
+},
+{
+  "directory": "/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/build/python/pa_radar/bindings",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -Dpa_radar_python_EXPORTS -I/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/build/python/pa_radar/bindings -I/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/python/pa_radar/bindings/../../../lib -I/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/python/pa_radar/bindings/../../../include -I/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/lib/../include -isystem /usr/include/python3.8 -isystem /home/yalcin/.local/lib/python3.8/site-packages/numpy/core/include   -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden   -flto -fno-fat-lto-objects -Wno-unused-variable -std=c++17 -o CMakeFiles/pa_radar_python.dir/python_bindings.cc.o -c /home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/python/pa_radar/bindings/python_bindings.cc",
+  "file": "/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/python/pa_radar/bindings/python_bindings.cc"
+}
+]

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/gnuradio/pa_radar/api.h
+gnuradio/attributes.h
+-
+
+../include/gnuradio/pa_radar/radar_target.h
+gnuradio/pa_radar/api.h
+-
+gnuradio/sync_block.h
+-
+
+/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/lib/radar_target_impl.cc
+radar_target_impl.h
+/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/lib/radar_target_impl.h
+gnuradio/io_signature.h
+-
+
+/home/yalcin/Work/GnuRadar/gr-partbox/gr-pa_radar/lib/radar_target_impl.h
+gnuradio/pa_radar/radar_target.h
+-
+

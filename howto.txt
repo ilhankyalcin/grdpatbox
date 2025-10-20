@@ -2,6 +2,7 @@ gr_modtool newmod pa_radar
 cd gr-pa_radar/
 cp .clang-format  ..
 gr_modtool add -t sync 
+(write parameters in float par1,float par2)
 mkdir build
 cd build/
 cmake ..
